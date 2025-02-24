@@ -1,0 +1,5 @@
+data/resumes
+data/job_description
+.idea*
+.DS_Store
+src/__pycache__/
