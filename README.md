@@ -13,7 +13,7 @@
    - paraphrase-MiniLM-L6-v2: Optimized for paraphrase detection. 
    - multi-qa-MiniLM-L6-cos-v1: Optimized for question-answer retrieval.
 8. **Performance Considerations**:
-    - **Hardware Requirements**: Sentence Transformers models run efficiently on CPUs, but for faster performance, you can use a GPU (if available on your MacBook).
+    - **Hardware Requirements**: Sentence Transformers models run efficiently on CPUs, but for faster performance, you can use a GPU (if available on your machine).
     - **Model Size**: Smaller models like all-MiniLM-L6-v2 are ideal
 
 ### Batch Processing
@@ -25,7 +25,7 @@ If processing many resumes, consider batching the embedding generation for bette
 conda create --name new_env_name --file requirements.txt
 ````
 
-**Install Dependencies in Conda environment:**
+**Install Dependencies from environment.yml (recommended):**
 ```bash
 conda env create --file environment.yml
 ````
