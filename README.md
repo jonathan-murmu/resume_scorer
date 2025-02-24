@@ -22,7 +22,7 @@ If processing many resumes, consider batching the embedding generation for bette
 ### Installation:
 **Install Dependencies from requirements.txt:**
 ```bash
-`conda create --name new_env_name --file requirements.txt`
+conda create --name new_env_name --file requirements.txt
 ````
 
 **Install Dependencies in Conda environment:**
